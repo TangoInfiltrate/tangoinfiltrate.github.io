@@ -15,6 +15,7 @@ h1 {
   margin-bottom: 0;
   font-size: 13px;
   color: #FFD700;
+  width: 100%;
 }
 span.timestamp {
   position: absolute;
@@ -31,6 +32,12 @@ h2 {
   margin-bottom: 0;
   font-size: 11px;
   color: white;
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid black;
 }
 p {
   font-size: 15px;
@@ -38,12 +45,19 @@ p {
   border-bottom: 1px solid black;
   padding-bottom: 10px;
   margin-top: 10px;
+  width: 100%;
 }
 p + ul {
   margin-top: 0px; 
 }
 li {
   font-size: 15px;
+}
+.enabled {
+  color: lime;
+}
+.disabled {
+  color: red;
 }
 a {
   color: orange;
@@ -124,15 +138,27 @@ a {
   border: 1px solid black;
 }
 footer {
-	background-color: black;
-	color: #fff;
-	text-align: center;
-	padding: 5px;
-	font-size: 12px;
-	position: relative;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
-	z-index: 10;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  font-size: 12px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
 }
+
+
+
+
+
+
+
+
+
+
+
+
